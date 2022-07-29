@@ -4,5 +4,5 @@ class MultiSelectItem<T> {
   final String label;
   bool selected = false;
 
-  MultiSelectItem(this.value, this.label);
+  MultiSelectItem(this.value, this.label, this.selected);
 }
